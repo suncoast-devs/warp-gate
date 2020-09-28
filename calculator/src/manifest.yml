@@ -1,0 +1,8 @@
+---
+files:
+  - ./index.scss
+  - ./components/Calculator.jsx
+  - ./App.jsx
+checks:
+  exists:
+    - ./package.json
