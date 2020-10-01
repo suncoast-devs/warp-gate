@@ -3,6 +3,9 @@ files:
   - ./src/index.scss
   - ./src/components/Calculator.jsx
   - ./src/App.jsx
+packages:
+  add:
+    - bootstrap
 checks:
   exists:
     - ./package.json
