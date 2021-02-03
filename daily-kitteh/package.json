@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "the-daily-kitteh",
+  "scripts": {
+    "start": "browser-sync start --server public --files public",
+    "deploy": "netlify deploy --prod --dir=public",
+    "setup-deploy": "app-app --deploy && yarn deploy",
+    "postdeploy": "echo 'Your site was deployed to https://the-daily-kitteh-abtaheeali.netlify.com'"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "useTabs": false
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.0",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "homepage": "https://the-daily-kitteh-abtaheeali.netlify.com"
+}
