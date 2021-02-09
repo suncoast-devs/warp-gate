@@ -78,7 +78,7 @@ function onlyTheEvenIndexedSurvive(arrayOfNumbers) {
  *   score: 99
  * }
  */
-function bestMoviesOfTheYear(arrayOfMovieObjects) {
+function bestMoviesOfTheYear(arrayOfMovieObjects, year) {
   // Your code here
 }
 
