@@ -1,0 +1,7 @@
+---
+files:
+  - ./Program.cs
+checks:
+  exists:
+    - ./SuncoastHumanResources.csproj
+    - ./Program.cs
