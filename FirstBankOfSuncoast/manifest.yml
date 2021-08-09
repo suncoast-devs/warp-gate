@@ -1,0 +1,7 @@
+---
+files:
+  - ./Program.cs
+checks:
+  exists:
+    - ./FirstBankOfSuncoast.csproj
+    - ./Program.cs
