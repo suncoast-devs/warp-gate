@@ -1,8 +1,8 @@
 ---
 files:
   - ./index.html
-  - ./src/screen.css
+  - ./src/style.css
 checks:
   exists:
     - ./index.html
-    - ./src/screen.css
+    - ./src/style.css
