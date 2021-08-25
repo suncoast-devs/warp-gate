@@ -1,0 +1,8 @@
+---
+files:
+  - ./index.html
+  - ./src/screen.css
+checks:
+  exists:
+    - ./index.html
+    - ./src/screen.css
