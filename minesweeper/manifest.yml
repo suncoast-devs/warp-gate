@@ -1,0 +1,7 @@
+---
+files:
+  - ./src/index.scss
+  - ./src/App.tsx
+checks:
+  exists:
+    - ./package.json
